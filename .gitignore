@@ -1,0 +1,29 @@
+# Visual Studio Code
+.vs/
+
+# Visual Studio temporary files
+*.obj
+*.exe
+*.dll
+*.pdb
+*.user
+*.suo
+*.cache
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.tlog
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.gpState
+*.csproj.user
+*.resharper
+*.resharper.user
+_ReSharper.*/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.sw?
