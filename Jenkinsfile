@@ -16,7 +16,7 @@ pipeline {
         
         stage('Build') {
             steps {
-                bat 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe" test_repos.sln /t:Build /p:Configuration=Release /p:PlatformToolset=v142 /p:WindowsTargetPlatformVersion=10.0.19041.0'
+                bat "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe" test_repos.sln /t:Build /p:Configuration=Release /p:PlatformToolset=v142 /p:WindowsTargetPlatformVersion=10.0.19041.0'
             }
         }
 
