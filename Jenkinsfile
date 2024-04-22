@@ -26,6 +26,13 @@ pipeline {
                 bat "x64\\Debug\\test_repos.exe --gtest_output=xml:test_report.xml"
             }
         }
+
+        stage('Publish Test Results') {
+            steps {
+                bat 'copy test_report.xml **/test-results.xml'
+                junit '**/test-results.xml'
+            }
+        }
     }
 
     post {
